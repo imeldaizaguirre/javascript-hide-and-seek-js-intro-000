@@ -22,8 +22,7 @@ function deepestChild(){
 
   for (var i = 0; i < element.length; i++) {
     if (element[i] === element.length - 1) {
-      let mostDeep = element[i];
-      return mostDeep
+      return element[i];
     } else {
       return "nothing happened"
     }
