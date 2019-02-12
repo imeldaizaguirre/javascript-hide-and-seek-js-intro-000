@@ -24,11 +24,7 @@ function deepestChild(){
     if (element[i] === element.length - 1) {
       return element[i].innerHTML;
     } else {
-      return "nothing happened"
-    }
-
-    //let  mostDeep = element.length - 1;
-
+      return "nothing happened"    
   }
 
 }
