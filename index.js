@@ -21,7 +21,7 @@ function deepestChild(){
   let element = document.querySelectorAll("#grand-node div");
 
   for (var i = 0; i < element.length; i++) {
-    if (element[i] === element.length - 1) {
+    if (element[i] === element[element.length - 1]) {
       return element[i].innerHTML;
     }
 
